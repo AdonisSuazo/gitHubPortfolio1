@@ -1,0 +1,175 @@
+/* Import external dependencies */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+
+*{
+  margin: 0;
+}
+​
+h1,
+p {
+  font-family: 'Inconsolata', monospace;
+}
+​
+p {
+  color: hotpink;
+  color: #ff0000;
+  color: rgb(255, 0, 0);
+  color: rgba(255, 0, 0, 0.5)
+}
+​
+h1 {
+  font-variant: small-caps;
+  font-size: 40px;
+}
+​
+.frame {
+  border: 1px #000 solid;  /* #fff */
+}
+​
+.main {
+  background-color: lightcyan;
+}
+​
+ul {
+  color: #080
+}
+​
+.large-text {
+  font-size: larger;
+}
+​
+#subscriber-only {
+  border: 2px solid #f00;
+  border-radius: 10px;
+}
+​
+ul p {
+  font-family: serif;
+}
+​
+ul div p {
+  font-family: sans-serif;
+}
+​
+ul .left,
+ul .right {
+  background-color: lightgrey;
+  display: inline-block;
+  width: 40%;
+}
+​
+ul div.left {
+  background-color: lightsalmon;
+}
+
+.shadow{
+  border: 1px solid #000;
+    height: 150px;
+    width: 150px;
+}
+
+.shadow.rectangle{
+  width: 250px;
+}
+
+.shadow.circle{
+  border-radius: 50%;
+}
+
+input[type='password']{
+
+  background-color: #ccc;
+}
+
+input[name^='phone-']{
+  border :1px hotpink dashed;
+}
+
+
+input [name^='phone-']:focus{
+  outline:  2px solid rgb(216, 146, 40);
+}
+
+div[class^='main-']{
+
+}
+
+.shadow{
+
+}
+
+ul.images  * {
+  margin: 0;
+}
+
+.left,
+.right {
+  background-color: lightgrey;
+  display: inline-block;
+  width: 40%;
+}
+
+footer a{
+        text-decoration: none;
+}
+
+footer > a {
+  color: red;
+}
+
+.rectangle + div{
+  border-color: chocolate;
+
+}
+
+a.faq{
+  color: #000;
+}
+
+a.faq:active{
+  background-color: #000;
+  color: #fff
+}
+
+a.faq:hover {
+  font-size: 30px;
+}
+.shapes div:nth-of-type(2n) {
+
+background-color: yellowgreen;
+  
+}
+
+input[ name='username']:valid + p{
+  transition: all 1000ms ease;
+}
+
+
+input[ name='username']:valid + p{
+  height: 0;
+}
+
+input[ name='username']:invalid + p{
+  display:auto;
+}
+
+input[ name='username']:invalid + p{
+  height:auto;
+}
+
+input[name='username'] + p {
+  overflow: hidden;
+  transition: all 1000ms ease;
+}
+body > p::after {
+  content: "©Adonis 2020"
+}
+
+@media screen and (max-width: 720px){
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+
+
